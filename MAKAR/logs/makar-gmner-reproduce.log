@@ -1,0 +1,414 @@
+[{"stream_name":"stderr","time":7.941451674,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.941512236,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.941518817,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.9415233910000005,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.568760075,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.56878803,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.568792646,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.568798129,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.901494133,"data":"WORK = /kaggle/working | CACHE = /tmp/makar | RUN_DIR = /kaggle/working/GMNER | đĩa trống: 1126 GB\n"}
+,{"stream_name":"stdout","time":21.067046554,"data":"3.13.15\n"}
+,{"stream_name":"stdout","time":32.063309812,"data":"torch        2.11.0+cu128\n"}
+,{"stream_name":"stdout","time":46.005078631,"data":"transformers 5.16.1\n"}
+,{"stream_name":"stdout","time":48.216129715,"data":"modelscope   1.40.2\n"}
+,{"stream_name":"stdout","time":48.696800296,"data":"gdown        5.2.2\n"}
+,{"stream_name":"stdout","time":48.69683965,"data":"ddgs         9.16.1\n"}
+,{"stream_name":"stdout","time":48.696844132,"data":"name, memory.total [MiB]\r\n"}
+,{"stream_name":"stdout","time":48.696884836,"data":"Tesla T4, 15360 MiB\r\n"}
+,{"stream_name":"stdout","time":48.69689234,"data":"Tesla T4, 15360 MiB\r\n"}
+,{"stream_name":"stdout","time":48.835252146,"data":"Số GPU: 2 | TP = 2\n"}
+,{"stream_name":"stdout","time":48.893534535,"data":"Writing makar_common.py\n"}
+,{"stream_name":"stdout","time":48.927406816,"data":"Writing train_mner.py\n"}
+,{"stream_name":"stdout","time":48.961612309,"data":"Writing mllm_infer.py\n"}
+,{"stream_name":"stdout","time":53.61459916,"data":"\n"}
+,{"stream_name":"stdout","time":54.597711732,"data":"\n"}
+,{"stream_name":"stdout","time":55.370829471,"data":"\n"}
+,{"stream_name":"stderr","time":57.31475251,"data":"Downloading...\n"}
+,{"stream_name":"stderr","time":57.314781344,"data":"From (original): https://drive.google.com/uc?id=1PpvvncnQkgDNeBMKVgG2zFYuRhbL873g\n"}
+,{"stream_name":"stderr","time":57.314787345,"data":"From (redirected): https://drive.google.com/uc?id=1PpvvncnQkgDNeBMKVgG2zFYuRhbL873g\u0026confirm=t\u0026uuid=20d0263e-c9de-4d85-bf40-8a89a22dc966\n"}
+,{"stream_name":"stderr","time":57.314794028,"data":"To: /tmp/makar/IJCAI2019_data.zip\n"}
+,{"stream_name":"stderr","time":57.314799407,"data":"\n"}
+,{"stream_name":"stderr","time":57.314804512,"data":"Downloading...\n"}
+,{"stream_name":"stderr","time":57.314809627,"data":"From (original): https://drive.google.com/uc?id=1PpvvncnQkgDNeBMKVgG2zFYuRhbL873g\n"}
+,{"stream_name":"stderr","time":57.314814963,"data":"From (redirected): https://drive.google.com/uc?id=1PpvvncnQkgDNeBMKVgG2zFYuRhbL873g\u0026confirm=t\u0026uuid=20d0263e-c9de-4d85-bf40-8a89a22dc966\n"}
+,{"stream_name":"stderr","time":57.314820716,"data":"To: /tmp/makar/IJCAI2019_data.zip\n"}
+,{"stream_name":"stderr","time":57.315758749,"data":"\r  0%|          | 0.00/1.03G [00:00\u003c?, ?B/s]\n"}
+,{"stream_name":"stderr","time":57.474582542,"data":"\r  0%|          | 0.00/1.03G [00:00\u003c?, ?B/s]\r  1%|          | 6.82M/1.03G [00:00\u003c00:23, 43.2MB/s]\n"}
+,{"stream_name":"stderr","time":57.577280381,"data":"\r  1%|          | 6.82M/1.03G [00:00\u003c00:23, 43.2MB/s]\r  2%|▏         | 22.0M/1.03G [00:00\u003c00:10, 93.8MB/s]\n"}
+,{"stream_name":"stderr","time":57.681649056,"data":"\r  2%|▏         | 22.0M/1.03G [00:00\u003c00:10, 93.8MB/s]\r  4%|▎         | 38.3M/1.03G [00:00\u003c00:08, 119MB/s] \n"}
+,{"stream_name":"stderr","time":57.784999207,"data":"\r  4%|▎         | 38.3M/1.03G [00:00\u003c00:08, 119MB/s] \r  5%|▍         | 51.4M/1.03G [00:00\u003c00:08, 122MB/s]\n"}
+,{"stream_name":"stderr","time":57.898742621,"data":"\r  5%|▍         | 51.4M/1.03G [00:00\u003c00:08, 122MB/s]\r  6%|▋         | 64.5M/1.03G [00:00\u003c00:08, 119MB/s]\n"}
+,{"stream_name":"stderr","time":58.001570426,"data":"\r  6%|▋         | 64.5M/1.03G [00:00\u003c00:08, 119MB/s]\r  8%|▊         | 79.2M/1.03G [00:00\u003c00:07, 127MB/s]\n"}
+,{"stream_name":"stderr","time":58.122145239,"data":"\r  8%|▊         | 79.2M/1.03G [00:00\u003c00:07, 127MB/s]\r  9%|▉         | 94.9M/1.03G [00:00\u003c00:07, 128MB/s]\n"}
+,{"stream_name":"stderr","time":58.225757011,"data":"\r  9%|▉         | 94.9M/1.03G [00:00\u003c00:07, 128MB/s]\r 11%|█         | 114M/1.03G [00:00\u003c00:06, 145MB/s] \n"}
+,{"stream_name":"stderr","time":58.32735676,"data":"\r 11%|█         | 114M/1.03G [00:00\u003c00:06, 145MB/s] \r 13%|█▎        | 129M/1.03G [00:01\u003c00:06, 147MB/s]\n"}
+,{"stream_name":"stderr","time":58.435437062,"data":"\r 13%|█▎        | 129M/1.03G [00:01\u003c00:06, 147MB/s]\r 14%|█▍        | 145M/1.03G [00:01\u003c00:06, 147MB/s]\n"}
+,{"stream_name":"stderr","time":58.539443993,"data":"\r 14%|█▍        | 145M/1.03G [00:01\u003c00:06, 147MB/s]\r 16%|█▌        | 162M/1.03G [00:01\u003c00:05, 151MB/s]\n"}
+,{"stream_name":"stderr","time":58.640279795,"data":"\r 16%|█▌        | 162M/1.03G [00:01\u003c00:05, 151MB/s]\r 17%|█▋        | 179M/1.03G [00:01\u003c00:05, 156MB/s]\n"}
+,{"stream_name":"stderr","time":58.743191676,"data":"\r 17%|█▋        | 179M/1.03G [00:01\u003c00:05, 156MB/s]\r 19%|█▉        | 195M/1.03G [00:01\u003c00:05, 155MB/s]\n"}
+,{"stream_name":"stderr","time":58.936624577,"data":"\r 19%|█▉        | 195M/1.03G [00:01\u003c00:05, 155MB/s]\r 20%|██        | 210M/1.03G [00:01\u003c00:06, 122MB/s]\n"}
+,{"stream_name":"stderr","time":59.037188274,"data":"\r 20%|██        | 210M/1.03G [00:01\u003c00:06, 122MB/s]\r 22%|██▏       | 228M/1.03G [00:01\u003c00:05, 135MB/s]\n"}
+,{"stream_name":"stderr","time":59.193300727,"data":"\r 22%|██▏       | 228M/1.03G [00:01\u003c00:05, 135MB/s]\r 23%|██▎       | 242M/1.03G [00:01\u003c00:06, 120MB/s]\n"}
+,{"stream_name":"stderr","time":59.295252609,"data":"\r 23%|██▎       | 242M/1.03G [00:01\u003c00:06, 120MB/s]\r 25%|██▍       | 256M/1.03G [00:01\u003c00:06, 125MB/s]\n"}
+,{"stream_name":"stderr","time":59.506816021,"data":"\r 25%|██▍       | 256M/1.03G [00:01\u003c00:06, 125MB/s]\r 26%|██▌       | 270M/1.03G [00:02\u003c00:07, 100MB/s]\n"}
+,{"stream_name":"stderr","time":59.614731134,"data":"\r 26%|██▌       | 270M/1.03G [00:02\u003c00:07, 100MB/s]\r 28%|██▊       | 286M/1.03G [00:02\u003c00:06, 110MB/s]\n"}
+,{"stream_name":"stderr","time":59.770645268,"data":"\r 28%|██▊       | 286M/1.03G [00:02\u003c00:06, 110MB/s]\r 29%|██▉       | 298M/1.03G [00:02\u003c00:07, 99.1MB/s]\n"}
+,{"stream_name":"stderr","time":59.872287452,"data":"\r 29%|██▉       | 298M/1.03G [00:02\u003c00:07, 99.1MB/s]\r 30%|███       | 311M/1.03G [00:02\u003c00:06, 107MB/s] \n"}
+,{"stream_name":"stderr","time":60.131295795,"data":"\r 30%|███       | 311M/1.03G [00:02\u003c00:06, 107MB/s] \r 32%|███▏      | 326M/1.03G [00:02\u003c00:08, 83.3MB/s]\n"}
+,{"stream_name":"stderr","time":60.230550448,"data":"\r 32%|███▏      | 326M/1.03G [00:02\u003c00:08, 83.3MB/s]\r 33%|███▎      | 339M/1.03G [00:02\u003c00:07, 92.9MB/s]\n"}
+,{"stream_name":"stderr","time":60.463665737,"data":"\r 33%|███▎      | 339M/1.03G [00:02\u003c00:07, 92.9MB/s]\r 34%|███▍      | 350M/1.03G [00:03\u003c00:09, 74.5MB/s]\n"}
+,{"stream_name":"stderr","time":60.566069297,"data":"\r 34%|███▍      | 350M/1.03G [00:03\u003c00:09, 74.5MB/s]\r 36%|███▌      | 370M/1.03G [00:03\u003c00:06, 98.7MB/s]\n"}
+,{"stream_name":"stderr","time":60.7265941,"data":"\r 36%|███▌      | 370M/1.03G [00:03\u003c00:06, 98.7MB/s]\r 37%|███▋      | 382M/1.03G [00:03\u003c00:06, 92.7MB/s]\n"}
+,{"stream_name":"stderr","time":60.885329208,"data":"\r 37%|███▋      | 382M/1.03G [00:03\u003c00:06, 92.7MB/s]\r 38%|███▊      | 393M/1.03G [00:03\u003c00:07, 85.2MB/s]\n"}
+,{"stream_name":"stderr","time":61.018741976,"data":"\r 38%|███▊      | 393M/1.03G [00:03\u003c00:07, 85.2MB/s]\r 40%|████      | 414M/1.03G [00:03\u003c00:05, 104MB/s] \n"}
+,{"stream_name":"stderr","time":61.13502529,"data":"\r 40%|████      | 414M/1.03G [00:03\u003c00:05, 104MB/s] \r 41%|████      | 425M/1.03G [00:03\u003c00:05, 103MB/s]\n"}
+,{"stream_name":"stderr","time":61.235482543,"data":"\r 41%|████      | 425M/1.03G [00:03\u003c00:05, 103MB/s]\r 43%|████▎     | 441M/1.03G [00:03\u003c00:05, 115MB/s]\n"}
+,{"stream_name":"stderr","time":61.339280962,"data":"\r 43%|████▎     | 441M/1.03G [00:03\u003c00:05, 115MB/s]\r 44%|████▍     | 459M/1.03G [00:04\u003c00:04, 130MB/s]\n"}
+,{"stream_name":"stderr","time":61.440037043,"data":"\r 44%|████▍     | 459M/1.03G [00:04\u003c00:04, 130MB/s]\r 46%|████▌     | 476M/1.03G [00:04\u003c00:03, 141MB/s]\n"}
+,{"stream_name":"stderr","time":61.54028808,"data":"\r 46%|████▌     | 476M/1.03G [00:04\u003c00:03, 141MB/s]\r 48%|████▊     | 497M/1.03G [00:04\u003c00:03, 159MB/s]\n"}
+,{"stream_name":"stderr","time":61.654589217,"data":"\r 48%|████▊     | 497M/1.03G [00:04\u003c00:03, 159MB/s]\r 50%|████▉     | 514M/1.03G [00:04\u003c00:03, 156MB/s]\n"}
+,{"stream_name":"stderr","time":61.762021575,"data":"\r 50%|████▉     | 514M/1.03G [00:04\u003c00:03, 156MB/s]\r 51%|█████▏    | 530M/1.03G [00:04\u003c00:03, 154MB/s]\n"}
+,{"stream_name":"stderr","time":61.861560624,"data":"\r 51%|█████▏    | 530M/1.03G [00:04\u003c00:03, 154MB/s]\r 53%|█████▎    | 547M/1.03G [00:04\u003c00:03, 159MB/s]\n"}
+,{"stream_name":"stderr","time":61.968795155,"data":"\r 53%|█████▎    | 547M/1.03G [00:04\u003c00:03, 159MB/s]\r 55%|█████▍    | 564M/1.03G [00:04\u003c00:02, 157MB/s]\n"}
+,{"stream_name":"stderr","time":62.083516414,"data":"\r 55%|█████▍    | 564M/1.03G [00:04\u003c00:02, 157MB/s]\r 56%|█████▌    | 580M/1.03G [00:04\u003c00:02, 152MB/s]\n"}
+,{"stream_name":"stderr","time":62.185678996,"data":"\r 56%|█████▌    | 580M/1.03G [00:04\u003c00:02, 152MB/s]\r 58%|█████▊    | 598M/1.03G [00:04\u003c00:02, 159MB/s]\n"}
+,{"stream_name":"stderr","time":62.315320125,"data":"\r 58%|█████▊    | 598M/1.03G [00:04\u003c00:02, 159MB/s]\r 60%|█████▉    | 614M/1.03G [00:04\u003c00:02, 147MB/s]\n"}
+,{"stream_name":"stderr","time":62.420477847,"data":"\r 60%|█████▉    | 614M/1.03G [00:04\u003c00:02, 147MB/s]\r 61%|██████    | 629M/1.03G [00:05\u003c00:02, 147MB/s]\n"}
+,{"stream_name":"stderr","time":62.524769887,"data":"\r 61%|██████    | 629M/1.03G [00:05\u003c00:02, 147MB/s]\r 63%|██████▎   | 646M/1.03G [00:05\u003c00:02, 152MB/s]\n"}
+,{"stream_name":"stderr","time":62.657436067,"data":"\r 63%|██████▎   | 646M/1.03G [00:05\u003c00:02, 152MB/s]\r 64%|██████▍   | 662M/1.03G [00:05\u003c00:02, 140MB/s]\n"}
+,{"stream_name":"stderr","time":62.760359406,"data":"\r 64%|██████▍   | 662M/1.03G [00:05\u003c00:02, 140MB/s]\r 66%|██████▌   | 680M/1.03G [00:05\u003c00:02, 150MB/s]\n"}
+,{"stream_name":"stderr","time":62.872162503,"data":"\r 66%|██████▌   | 680M/1.03G [00:05\u003c00:02, 150MB/s]\r 67%|██████▋   | 696M/1.03G [00:05\u003c00:02, 147MB/s]\n"}
+,{"stream_name":"stderr","time":62.973032267,"data":"\r 67%|██████▋   | 696M/1.03G [00:05\u003c00:02, 147MB/s]\r 69%|██████▉   | 713M/1.03G [00:05\u003c00:02, 153MB/s]\n"}
+,{"stream_name":"stderr","time":63.095478708,"data":"\r 69%|██████▉   | 713M/1.03G [00:05\u003c00:02, 153MB/s]\r 71%|███████   | 729M/1.03G [00:05\u003c00:02, 146MB/s]\n"}
+,{"stream_name":"stderr","time":63.197305505,"data":"\r 71%|███████   | 729M/1.03G [00:05\u003c00:02, 146MB/s]\r 73%|███████▎  | 748M/1.03G [00:05\u003c00:01, 157MB/s]\n"}
+,{"stream_name":"stderr","time":63.306392142,"data":"\r 73%|███████▎  | 748M/1.03G [00:05\u003c00:01, 157MB/s]\r 74%|███████▍  | 764M/1.03G [00:05\u003c00:01, 154MB/s]\n"}
+,{"stream_name":"stderr","time":63.416925282,"data":"\r 74%|███████▍  | 764M/1.03G [00:05\u003c00:01, 154MB/s]\r 76%|███████▌  | 780M/1.03G [00:06\u003c00:01, 151MB/s]\n"}
+,{"stream_name":"stderr","time":63.518120616,"data":"\r 76%|███████▌  | 780M/1.03G [00:06\u003c00:01, 151MB/s]\r 77%|███████▋  | 795M/1.03G [00:06\u003c00:01, 152MB/s]\n"}
+,{"stream_name":"stderr","time":63.621814059,"data":"\r 77%|███████▋  | 795M/1.03G [00:06\u003c00:01, 152MB/s]\r 79%|███████▉  | 813M/1.03G [00:06\u003c00:01, 156MB/s]\n"}
+,{"stream_name":"stderr","time":63.721547754,"data":"\r 79%|███████▉  | 813M/1.03G [00:06\u003c00:01, 156MB/s]\r 81%|████████  | 830M/1.03G [00:06\u003c00:01, 163MB/s]\n"}
+,{"stream_name":"stderr","time":63.891416298,"data":"\r 81%|████████  | 830M/1.03G [00:06\u003c00:01, 163MB/s]\r 82%|████████▏ | 847M/1.03G [00:06\u003c00:01, 136MB/s]\n"}
+,{"stream_name":"stderr","time":63.992790584,"data":"\r 82%|████████▏ | 847M/1.03G [00:06\u003c00:01, 136MB/s]\r 84%|████████▍ | 865M/1.03G [00:06\u003c00:01, 145MB/s]\n"}
+,{"stream_name":"stderr","time":64.09776666,"data":"\r 84%|████████▍ | 865M/1.03G [00:06\u003c00:01, 145MB/s]\r 85%|████████▌ | 880M/1.03G [00:06\u003c00:01, 146MB/s]\n"}
+,{"stream_name":"stderr","time":64.260697601,"data":"\r 85%|████████▌ | 880M/1.03G [00:06\u003c00:01, 146MB/s]\r 87%|████████▋ | 895M/1.03G [00:06\u003c00:01, 126MB/s]\n"}
+,{"stream_name":"stderr","time":64.361950263,"data":"\r 87%|████████▋ | 895M/1.03G [00:06\u003c00:01, 126MB/s]\r 89%|████████▊ | 913M/1.03G [00:07\u003c00:00, 139MB/s]\n"}
+,{"stream_name":"stderr","time":64.463330027,"data":"\r 89%|████████▊ | 913M/1.03G [00:07\u003c00:00, 139MB/s]\r 90%|█████████ | 933M/1.03G [00:07\u003c00:00, 153MB/s]\n"}
+,{"stream_name":"stderr","time":64.589497254,"data":"\r 90%|█████████ | 933M/1.03G [00:07\u003c00:00, 153MB/s]\r 92%|█████████▏| 949M/1.03G [00:07\u003c00:00, 145MB/s]\n"}
+,{"stream_name":"stderr","time":64.68983471600001,"data":"\r 92%|█████████▏| 949M/1.03G [00:07\u003c00:00, 145MB/s]\r 94%|█████████▍| 967M/1.03G [00:07\u003c00:00, 155MB/s]\n"}
+,{"stream_name":"stderr","time":64.812370658,"data":"\r 94%|█████████▍| 967M/1.03G [00:07\u003c00:00, 155MB/s]\r 95%|█████████▌| 984M/1.03G [00:07\u003c00:00, 148MB/s]\n"}
+,{"stream_name":"stderr","time":64.928126823,"data":"\r 95%|█████████▌| 984M/1.03G [00:07\u003c00:00, 148MB/s]\r 97%|█████████▋| 1.00G/1.03G [00:07\u003c00:00, 149MB/s]\n"}
+,{"stream_name":"stderr","time":65.028255988,"data":"\r 97%|█████████▋| 1.00G/1.03G [00:07\u003c00:00, 149MB/s]\r 99%|█████████▉| 1.02G/1.03G [00:07\u003c00:00, 161MB/s]\n"}
+,{"stream_name":"stderr","time":65.082995897,"data":"\r 99%|█████████▉| 1.02G/1.03G [00:07\u003c00:00, 161MB/s]\r100%|██████████| 1.03G/1.03G [00:07\u003c00:00, 133MB/s]\n"}
+,{"stream_name":"stderr","time":65.184792226,"data":"\r100%|██████████| 1.03G/1.03G [00:07\u003c00:00, 133MB/s]\n"}
+,{"stream_name":"stderr","time":65.184825389,"data":"\n"}
+,{"stream_name":"stderr","time":65.18483017,"data":"\n"}
+,{"stream_name":"stdout","time":71.244646998,"data":"số ảnh: 13106\n"}
+,{"stream_name":"stdout","time":75.344579163,"data":"Paper Table 2 (test): GMNER Entity 2543 / Grounded 1036 / Box 1244 ; FMNERG 2543 / 1046 / 1254\n"}
+,{"stream_name":"stdout","time":78.343953089,"data":"MAKAR train gốc: 28070 câu, 9335 câu khác nhau, 43 câu trùng tập test\n"}
+,{"stream_name":"stdout","time":78.83857397,"data":"train 6989\n"}
+,{"stream_name":"stdout","time":78.838603978,"data":"valid 1500\n"}
+,{"stream_name":"stdout","time":78.981873862,"data":"test 1500\n"}
+,{"stream_name":"stdout","time":78.981910159,"data":"\n"}
+,{"stream_name":"stdout","time":78.981914078,"data":"Ví dụ đầu vào tăng cường X = (câu, \u003cSEP\u003e, auxiliary knowledge)  [Eq. 3]\n"}
+,{"stream_name":"stdout","time":78.981918568,"data":"CÂU : The geometry of plants . Garfield Park Conservatory\n"}
+,{"stream_name":"stdout","time":78.981921506,"data":"NHÃN: [('Garfield Park', 'LOC')]\n"}
+,{"stream_name":"stdout","time":78.981929964,"data":"AUX : Named entities:1. Garfield Park Conservatory (location)2. Plants (General entity)3. Geometry (General entity)Reasoning:The sentence mentions Garfield Park Conservatory, which is likely a botanical garden or greenhouse. The main topic of the sentence is the geometry of plants, which could refer to the patterns and shapes found in plant structures. Plants is a general entity, encompassing a wide range of species and varieties. Geometry is also a general entity, referring to the study of shapes and figures. The picture appears to be directly related to the sentence, as it shows a large indoor gar ...\n"}
+,{"stream_name":"stderr","time":79.8126026,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":79.812624555,"data":"\n"}
+,{"stream_name":"stderr","time":79.812629246,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":88.361544507,"data":"start kea on GPU 0\n"}
+,{"stream_name":"stdout","time":88.361634633,"data":"start nokea on GPU 1\n"}
+,{"stream_name":"stdout","time":208.381347384,"data":"04:14 kea ...\n"}
+,{"stream_name":"stdout","time":208.381419727,"data":"04:14 nokea ...\n"}
+,{"stream_name":"stdout","time":328.384181576,"data":"04:16 kea ...\n"}
+,{"stream_name":"stdout","time":328.384228531,"data":"04:16 nokea ...\n"}
+,{"stream_name":"stdout","time":448.38314148,"data":"04:18 kea ...\n"}
+,{"stream_name":"stdout","time":448.383174322,"data":"04:18 nokea ...\n"}
+,{"stream_name":"stdout","time":568.384714186,"data":"04:20 kea ...\n"}
+,{"stream_name":"stdout","time":568.384756549,"data":"04:20 nokea ...\n"}
+,{"stream_name":"stdout","time":688.38648389,"data":"04:22 kea ...\n"}
+,{"stream_name":"stdout","time":688.386519639,"data":"04:22 nokea ...\n"}
+,{"stream_name":"stdout","time":808.386033195,"data":"04:24 kea {\"epoch\": 1, \"loss\": 2.52201349653082, \"dev_f1\": 83.08519437551695, \"sec\": 674.9228944778442}\n"}
+,{"stream_name":"stdout","time":808.386066865,"data":"04:24 nokea {\"epoch\": 1, \"loss\": 2.818073011858035, \"dev_f1\": 79.7489539748954, \"sec\": 575.639310836792}\n"}
+,{"stream_name":"stdout","time":928.385983197,"data":"04:26 kea {\"epoch\": 1, \"loss\": 2.52201349653082, \"dev_f1\": 83.08519437551695, \"sec\": 674.9228944778442}\n"}
+,{"stream_name":"stdout","time":928.386040618,"data":"04:26 nokea {\"epoch\": 1, \"loss\": 2.818073011858035, \"dev_f1\": 79.7489539748954, \"sec\": 575.639310836792}\n"}
+,{"stream_name":"stdout","time":1048.388512961,"data":"04:28 kea {\"epoch\": 1, \"loss\": 2.52201349653082, \"dev_f1\": 83.08519437551695, \"sec\": 674.9228944778442}\n"}
+,{"stream_name":"stdout","time":1048.388547349,"data":"04:28 nokea {\"epoch\": 1, \"loss\": 2.818073011858035, \"dev_f1\": 79.7489539748954, \"sec\": 575.639310836792}\n"}
+,{"stream_name":"stdout","time":1168.391102981,"data":"04:30 kea {\"epoch\": 1, \"loss\": 2.52201349653082, \"dev_f1\": 83.08519437551695, \"sec\": 674.9228944778442}\n"}
+,{"stream_name":"stdout","time":1168.391144795,"data":"04:30 nokea {\"epoch\": 1, \"loss\": 2.818073011858035, \"dev_f1\": 79.7489539748954, \"sec\": 575.639310836792}\n"}
+,{"stream_name":"stdout","time":1288.39359086,"data":"04:32 kea {\"epoch\": 1, \"loss\": 2.52201349653082, \"dev_f1\": 83.08519437551695, \"sec\": 674.9228944778442}\n"}
+,{"stream_name":"stdout","time":1288.393629308,"data":"04:32 nokea {\"epoch\": 2, \"loss\": 1.4709607654510095, \"dev_f1\": 81.81634712411706, \"sec\": 580.2041547298431}\n"}
+,{"stream_name":"stdout","time":1408.387339742,"data":"04:34 kea {\"epoch\": 1, \"loss\": 2.52201349653082, \"dev_f1\": 83.08519437551695, \"sec\": 674.9228944778442}\n"}
+,{"stream_name":"stdout","time":1408.387371424,"data":"04:34 nokea {\"epoch\": 2, \"loss\": 1.4709607654510095, \"dev_f1\": 81.81634712411706, \"sec\": 580.2041547298431}\n"}
+,{"stream_name":"stdout","time":1528.391956616,"data":"04:36 kea {\"epoch\": 2, \"loss\": 1.282898328408761, \"dev_f1\": 82.9517579721995, \"sec\": 684.9067540168762}\n"}
+,{"stream_name":"stdout","time":1528.391992932,"data":"04:36 nokea {\"epoch\": 2, \"loss\": 1.4709607654510095, \"dev_f1\": 81.81634712411706, \"sec\": 580.2041547298431}\n"}
+,{"stream_name":"stdout","time":1648.394889332,"data":"04:38 kea {\"epoch\": 2, \"loss\": 1.282898328408761, \"dev_f1\": 82.9517579721995, \"sec\": 684.9067540168762}\n"}
+,{"stream_name":"stdout","time":1648.394925033,"data":"04:38 nokea {\"epoch\": 2, \"loss\": 1.4709607654510095, \"dev_f1\": 81.81634712411706, \"sec\": 580.2041547298431}\n"}
+,{"stream_name":"stdout","time":1768.394080802,"data":"04:40 kea {\"epoch\": 2, \"loss\": 1.282898328408761, \"dev_f1\": 82.9517579721995, \"sec\": 684.9067540168762}\n"}
+,{"stream_name":"stdout","time":1768.39414958,"data":"04:40 nokea {\"epoch\": 2, \"loss\": 1.4709607654510095, \"dev_f1\": 81.81634712411706, \"sec\": 580.2041547298431}\n"}
+,{"stream_name":"stdout","time":1888.394757754,"data":"04:42 kea {\"epoch\": 2, \"loss\": 1.282898328408761, \"dev_f1\": 82.9517579721995, \"sec\": 684.9067540168762}\n"}
+,{"stream_name":"stdout","time":1888.394791997,"data":"04:42 nokea {\"epoch\": 3, \"loss\": 1.121474815316251, \"dev_f1\": 81.39582065327653, \"sec\": 580.1448175907135}\n"}
+,{"stream_name":"stdout","time":2008.395927841,"data":"04:44 kea {\"epoch\": 2, \"loss\": 1.282898328408761, \"dev_f1\": 82.9517579721995, \"sec\": 684.9067540168762}\n"}
+,{"stream_name":"stdout","time":2008.395964178,"data":"04:44 nokea {\"epoch\": 3, \"loss\": 1.121474815316251, \"dev_f1\": 81.39582065327653, \"sec\": 580.1448175907135}\n"}
+,{"stream_name":"stdout","time":2128.395957218,"data":"04:46 kea {\"epoch\": 2, \"loss\": 1.282898328408761, \"dev_f1\": 82.9517579721995, \"sec\": 684.9067540168762}\n"}
+,{"stream_name":"stdout","time":2128.396033605,"data":"04:46 nokea {\"epoch\": 3, \"loss\": 1.121474815316251, \"dev_f1\": 81.39582065327653, \"sec\": 580.1448175907135}\n"}
+,{"stream_name":"stdout","time":2248.397667023,"data":"04:48 kea {\"epoch\": 3, \"loss\": 0.9770794689550877, \"dev_f1\": 83.42115930279691, \"sec\": 684.7944722175598}\n"}
+,{"stream_name":"stdout","time":2248.397703835,"data":"04:48 nokea {\"epoch\": 3, \"loss\": 1.121474815316251, \"dev_f1\": 81.39582065327653, \"sec\": 580.1448175907135}\n"}
+,{"stream_name":"stdout","time":2368.398157413,"data":"04:50 kea {\"epoch\": 3, \"loss\": 0.9770794689550877, \"dev_f1\": 83.42115930279691, \"sec\": 684.7944722175598}\n"}
+,{"stream_name":"stdout","time":2368.398198795,"data":"04:50 nokea {\"epoch\": 3, \"loss\": 1.121474815316251, \"dev_f1\": 81.39582065327653, \"sec\": 580.1448175907135}\n"}
+,{"stream_name":"stdout","time":2488.400671621,"data":"04:52 kea {\"epoch\": 3, \"loss\": 0.9770794689550877, \"dev_f1\": 83.42115930279691, \"sec\": 684.7944722175598}\n"}
+,{"stream_name":"stdout","time":2488.400716731,"data":"04:52 nokea {\"epoch\": 4, \"loss\": 0.9316592272040722, \"dev_f1\": 82.65224358974359, \"sec\": 578.0801801681519}\n"}
+,{"stream_name":"stdout","time":2608.401039958,"data":"04:54 kea {\"epoch\": 3, \"loss\": 0.9770794689550877, \"dev_f1\": 83.42115930279691, \"sec\": 684.7944722175598}\n"}
+,{"stream_name":"stdout","time":2608.401092262,"data":"04:54 nokea {\"epoch\": 4, \"loss\": 0.9316592272040722, \"dev_f1\": 82.65224358974359, \"sec\": 578.0801801681519}\n"}
+,{"stream_name":"stdout","time":2728.403774401,"data":"04:56 kea {\"epoch\": 3, \"loss\": 0.9770794689550877, \"dev_f1\": 83.42115930279691, \"sec\": 684.7944722175598}\n"}
+,{"stream_name":"stdout","time":2728.403862041,"data":"04:56 nokea {\"epoch\": 4, \"loss\": 0.9316592272040722, \"dev_f1\": 82.65224358974359, \"sec\": 578.0801801681519}\n"}
+,{"stream_name":"stdout","time":2848.414500682,"data":"04:58 kea {\"epoch\": 3, \"loss\": 0.9770794689550877, \"dev_f1\": 83.42115930279691, \"sec\": 684.7944722175598}\n"}
+,{"stream_name":"stdout","time":2848.414533778,"data":"04:58 nokea {\"epoch\": 4, \"loss\": 0.9316592272040722, \"dev_f1\": 82.65224358974359, \"sec\": 578.0801801681519}\n"}
+,{"stream_name":"stdout","time":2968.405468301,"data":"05:00 kea {\"epoch\": 4, \"loss\": 0.7307366966866639, \"dev_f1\": 83.35329341317366, \"sec\": 684.0103299617767}\n"}
+,{"stream_name":"stdout","time":2968.405502568,"data":"05:00 nokea {\"epoch\": 4, \"loss\": 0.9316592272040722, \"dev_f1\": 82.65224358974359, \"sec\": 578.0801801681519}\n"}
+,{"stream_name":"stdout","time":3088.403900553,"data":"05:02 kea {\"epoch\": 4, \"loss\": 0.7307366966866639, \"dev_f1\": 83.35329341317366, \"sec\": 684.0103299617767}\n"}
+,{"stream_name":"stdout","time":3088.403935133,"data":"05:02 nokea {\"epoch\": 5, \"loss\": 0.7558499498150815, \"dev_f1\": 82.20235676554248, \"sec\": 580.9794294834137}\n"}
+,{"stream_name":"stdout","time":3208.407510749,"data":"05:04 kea {\"epoch\": 4, \"loss\": 0.7307366966866639, \"dev_f1\": 83.35329341317366, \"sec\": 684.0103299617767}\n"}
+,{"stream_name":"stdout","time":3208.407544695,"data":"05:04 nokea {\"epoch\": 5, \"loss\": 0.7558499498150815, \"dev_f1\": 82.20235676554248, \"sec\": 580.9794294834137}\n"}
+,{"stream_name":"stdout","time":3328.407045726,"data":"05:06 kea {\"epoch\": 4, \"loss\": 0.7307366966866639, \"dev_f1\": 83.35329341317366, \"sec\": 684.0103299617767}\n"}
+,{"stream_name":"stdout","time":3328.407080149,"data":"05:06 nokea {\"epoch\": 5, \"loss\": 0.7558499498150815, \"dev_f1\": 82.20235676554248, \"sec\": 580.9794294834137}\n"}
+,{"stream_name":"stdout","time":3448.406642078,"data":"05:08 kea {\"epoch\": 4, \"loss\": 0.7307366966866639, \"dev_f1\": 83.35329341317366, \"sec\": 684.0103299617767}\n"}
+,{"stream_name":"stdout","time":3448.406704491,"data":"05:08 nokea {\"epoch\": 5, \"loss\": 0.7558499498150815, \"dev_f1\": 82.20235676554248, \"sec\": 580.9794294834137}\n"}
+,{"stream_name":"stdout","time":3568.408078468,"data":"05:10 kea {\"epoch\": 5, \"loss\": 0.5299676921633146, \"dev_f1\": 83.44771901493742, \"sec\": 684.7206077575684}\n"}
+,{"stream_name":"stdout","time":3568.408118136,"data":"05:10 nokea {\"epoch\": 5, \"loss\": 0.7558499498150815, \"dev_f1\": 82.20235676554248, \"sec\": 580.9794294834137}\n"}
+,{"stream_name":"stdout","time":3688.408452037,"data":"05:12 kea {\"epoch\": 5, \"loss\": 0.5299676921633146, \"dev_f1\": 83.44771901493742, \"sec\": 684.7206077575684}\n"}
+,{"stream_name":"stdout","time":3688.408485757,"data":"05:12 nokea {\"epoch\": 6, \"loss\": 0.6012981555747503, \"dev_f1\": 82.25579053373615, \"sec\": 581.9840288162231}\n"}
+,{"stream_name":"stdout","time":3808.410075974,"data":"05:14 kea {\"epoch\": 5, \"loss\": 0.5299676921633146, \"dev_f1\": 83.44771901493742, \"sec\": 684.7206077575684}\n"}
+,{"stream_name":"stdout","time":3808.410129504,"data":"05:14 nokea {\"epoch\": 6, \"loss\": 0.6012981555747503, \"dev_f1\": 82.25579053373615, \"sec\": 581.9840288162231}\n"}
+,{"stream_name":"stdout","time":3928.412549827,"data":"05:16 kea {\"epoch\": 5, \"loss\": 0.5299676921633146, \"dev_f1\": 83.44771901493742, \"sec\": 684.7206077575684}\n"}
+,{"stream_name":"stdout","time":3928.412583862,"data":"05:16 nokea {\"epoch\": 6, \"loss\": 0.6012981555747503, \"dev_f1\": 82.25579053373615, \"sec\": 581.9840288162231}\n"}
+,{"stream_name":"stdout","time":4048.412187487,"data":"05:18 kea {\"epoch\": 5, \"loss\": 0.5299676921633146, \"dev_f1\": 83.44771901493742, \"sec\": 684.7206077575684}\n"}
+,{"stream_name":"stdout","time":4048.41222199,"data":"05:18 nokea {\"epoch\": 6, \"loss\": 0.6012981555747503, \"dev_f1\": 82.25579053373615, \"sec\": 581.9840288162231}\n"}
+,{"stream_name":"stdout","time":4168.412887176,"data":"05:20 kea {\"epoch\": 5, \"loss\": 0.5299676921633146, \"dev_f1\": 83.44771901493742, \"sec\": 684.7206077575684}\n"}
+,{"stream_name":"stdout","time":4168.412919169,"data":"05:20 nokea {\"epoch\": 6, \"loss\": 0.6012981555747503, \"dev_f1\": 82.25579053373615, \"sec\": 581.9840288162231}\n"}
+,{"stream_name":"stdout","time":4288.41861736,"data":"05:22 kea {\"epoch\": 6, \"loss\": 0.37596738700536764, \"dev_f1\": 83.12889603860849, \"sec\": 684.3342432975769}\n"}
+,{"stream_name":"stdout","time":4288.41866028,"data":"05:22 nokea {\"epoch\": 7, \"loss\": 0.48401585493121696, \"dev_f1\": 82.54223652453742, \"sec\": 582.6328165531158}\n"}
+,{"stream_name":"stdout","time":4408.415395476,"data":"05:24 kea {\"epoch\": 6, \"loss\": 0.37596738700536764, \"dev_f1\": 83.12889603860849, \"sec\": 684.3342432975769}\n"}
+,{"stream_name":"stdout","time":4408.415428207,"data":"05:24 nokea {\"epoch\": 7, \"loss\": 0.48401585493121696, \"dev_f1\": 82.54223652453742, \"sec\": 582.6328165531158}\n"}
+,{"stream_name":"stdout","time":4528.416688326,"data":"05:26 kea {\"epoch\": 6, \"loss\": 0.37596738700536764, \"dev_f1\": 83.12889603860849, \"sec\": 684.3342432975769}\n"}
+,{"stream_name":"stdout","time":4528.416721809,"data":"05:26 nokea {\"epoch\": 7, \"loss\": 0.48401585493121696, \"dev_f1\": 82.54223652453742, \"sec\": 582.6328165531158}\n"}
+,{"stream_name":"stdout","time":4648.41945258,"data":"05:28 kea {\"epoch\": 6, \"loss\": 0.37596738700536764, \"dev_f1\": 83.12889603860849, \"sec\": 684.3342432975769}\n"}
+,{"stream_name":"stdout","time":4648.419487566,"data":"05:28 nokea {\"epoch\": 7, \"loss\": 0.48401585493121696, \"dev_f1\": 82.54223652453742, \"sec\": 582.6328165531158}\n"}
+,{"stream_name":"stdout","time":4768.417382596,"data":"05:30 kea {\"epoch\": 6, \"loss\": 0.37596738700536764, \"dev_f1\": 83.12889603860849, \"sec\": 684.3342432975769}\n"}
+,{"stream_name":"stdout","time":4768.417413848,"data":"05:30 nokea {\"epoch\": 7, \"loss\": 0.48401585493121696, \"dev_f1\": 82.54223652453742, \"sec\": 582.6328165531158}\n"}
+,{"stream_name":"stdout","time":4888.408107719,"data":"05:32 kea {\"epoch\": 6, \"loss\": 0.37596738700536764, \"dev_f1\": 83.12889603860849, \"sec\": 684.3342432975769}\n"}
+,{"stream_name":"stdout","time":4888.408140939,"data":"05:32 nokea best dev F1 82.65 | test F1 82.58\n"}
+,{"stream_name":"stdout","time":5008.40971389,"data":"05:34 kea {\"epoch\": 7, \"loss\": 0.2772187861925347, \"dev_f1\": 82.94153104279687, \"sec\": 688.477968454361}\n"}
+,{"stream_name":"stdout","time":5008.409759275,"data":"05:34 nokea best dev F1 82.65 | test F1 82.58\n"}
+,{"stream_name":"stdout","time":5128.410177765,"data":"05:36 kea {\"epoch\": 7, \"loss\": 0.2772187861925347, \"dev_f1\": 82.94153104279687, \"sec\": 688.477968454361}\n"}
+,{"stream_name":"stdout","time":5128.41021989,"data":"05:36 nokea best dev F1 82.65 | test F1 82.58\n"}
+,{"stream_name":"stdout","time":5248.417975351,"data":"05:38 kea {\"epoch\": 7, \"loss\": 0.2772187861925347, \"dev_f1\": 82.94153104279687, \"sec\": 688.477968454361}\n"}
+,{"stream_name":"stdout","time":5248.418016252,"data":"05:38 nokea best dev F1 82.65 | test F1 82.58\n"}
+,{"stream_name":"stdout","time":5368.411505968,"data":"05:40 kea {\"epoch\": 7, \"loss\": 0.2772187861925347, \"dev_f1\": 82.94153104279687, \"sec\": 688.477968454361}\n"}
+,{"stream_name":"stdout","time":5368.411544696,"data":"05:40 nokea best dev F1 82.65 | test F1 82.58\n"}
+,{"stream_name":"stdout","time":5488.41250763,"data":"05:42 kea {\"epoch\": 7, \"loss\": 0.2772187861925347, \"dev_f1\": 82.94153104279687, \"sec\": 688.477968454361}\n"}
+,{"stream_name":"stdout","time":5488.412541438,"data":"05:42 nokea best dev F1 82.65 | test F1 82.58\n"}
+,{"stream_name":"stdout","time":5608.420833281,"data":"05:44 kea {\"epoch\": 7, \"loss\": 0.2772187861925347, \"dev_f1\": 82.94153104279687, \"sec\": 688.477968454361}\n"}
+,{"stream_name":"stdout","time":5608.420883476,"data":"05:44 nokea best dev F1 82.65 | test F1 82.58\n"}
+,{"stream_name":"stdout","time":5728.215238399,"data":"05:46 kea best dev F1 83.45 | test F1 84.35\n"}
+,{"stream_name":"stdout","time":5728.21527579,"data":"05:46 nokea best dev F1 82.65 | test F1 82.58\n"}
+,{"stream_name":"stdout","time":5728.215279766,"data":"Còn 9.4 h trong ngân sách thời gian\n"}
+,{"stream_name":"stdout","time":5728.765057887,"data":"Paper Table 3 – MNER F1 của MAKAR (KEA + ECA): GMNER 86.38 | FMNERG 71.24\n"}
+,{"stream_name":"stdout","time":5728.870825082,"data":"10 thực thể tin cậy thấp (\u003c 0.5) trong 10 câu; precision nhóm thấp = 20.0% vs nhóm cao = 84.2%\n"}
+,{"stream_name":"stdout","time":5730.099720303,"data":"0 / 10 | A beautiful day in Tioga County , at the PA Welcome Center along Rt . 15 . Love  -\u003e 3 kết quả\n"}
+,{"stream_name":"stdout","time":5777.959909729,"data":"câu có kết quả search: 9 / 10\n"}
+,{"stream_name":"stdout","time":5778.143345463,"data":"vLLM khả dụng: False\n"}
+,{"stream_name":"stdout","time":5812.865171519,"data":"0 kết quả có sẵn, cần chạy 10 request\n"}
+,{"stream_name":"stdout","time":5812.865247488,"data":"backend: transformers × 2 tiến trình | model 7.5 GB\n"}
+,{"stream_name":"stdout","time":5872.920028427,"data":"05:49 5/5  15s | 5/5  16s\n"}
+,{"stream_name":"stdout","time":5872.920088211,"data":"Còn 9.4 h trong ngân sách thời gian\n"}
+,{"stream_name":"stdout","time":5872.920095596,"data":"0 kết quả có sẵn, cần chạy 10 request\n"}
+,{"stream_name":"stdout","time":5872.920100343,"data":"backend: transformers × 2 tiến trình | model 7.5 GB\n"}
+,{"stream_name":"stdout","time":5932.667759365,"data":"05:50 5/5  17s | 5/5  19s\n"}
+,{"stream_name":"stdout","time":5932.667794216,"data":"Còn 9.4 h trong ngân sách thời gian\n"}
+,{"stream_name":"stdout","time":5932.667801624,"data":"Background Knowledge: The Pennsylvania Welcome Center in Tioga, PA is located at 13809 US-15, Tioga, PA 16946. It is situated on the hill overlooking the Upper Tioga River, the Tioga-Hammond Lakes, and the canal system. The building provides visitors with information about Pennsylvania and USA. The center is accessible by car and offers a scenic view of the surrounding area.\n"}
+,{"stream_name":"stdout","time":5932.667808259,"data":"KEA Results: [Tioga County, LOC], [Welcome Center, LOC]\n"}
+,{"stream_name":"stdout","time":5932.667813184,"data":"Low-confidence entities: [Welcome Center, LOC]\n"}
+,{"stream_name":"stdout","time":5932.667817844,"data":"Input Text: A beautiful day in Tioga County , at the PA Welcome Center along Rt . 15 . Love the Endless Mountains .\n"}
+,{"stream_name":"stdout","time":5932.667823636,"data":"Task: Based on the background knowledge retrieved from web search, along with results from KEA, the input image, and text, please refine the entity boundaries and types of the low-confidence entities.\n"}
+,{"stream_name":"stdout","time":5932.667829108,"data":"Entity types: PER (person, fictional character); LOC (country, city, geographical location); ORG (club, company, party, school, news organization); OTHER (events, products, works, concepts, other).\n"}
+,{"stream_name":"stdout","time":5932.66783465,"data":"Notes: The goal is to use this background knowledge to address semantic ambiguity and improve the accuracy of named entity recognition. Copy entity names exactly from the Input Text; words beginning with @ are not entities.\n"}
+,{"stream_name":"stdout","time":5932.667840155,"data":"Give a brief explanation, then a last line in the format\n"}
+,{"stream_name":"stdout","time":5932.667846202,"data":"Final entities: [entity name, TYPE], [entity name, TYPE], ... \n"}
+,{"stream_name":"stdout","time":5932.667873175,"data":"--- OUTPUT ---\n"}
+,{"stream_name":"stdout","time":5932.667877822,"data":" Explanation: The input text mentions \"Tioga County\" and \"PA Welcome Center,\" which are both locations. The text also refers to \"Endless Mountains,\" which is likely a geographical feature.\n"}
+,{"stream_name":"stdout","time":5932.667883564,"data":"\n"}
+,{"stream_name":"stdout","time":5932.667888797,"data":"Final entities: [Tioga County, LOC], [PA Welcome Center, LOC]\n"}
+,{"stream_name":"stdout","time":5932.731385288,"data":"ECA: parse được 10/10 câu, thay đổi 6 câu\n"}
+,{"stream_name":"stdout","time":5932.731411595,"data":"\n"}
+,{"stream_name":"stdout","time":5932.731416701,"data":"TEXT: A beautiful day in Tioga County , at the PA Welcome Center along Rt . 15 . Love the Endless Mountains .\n"}
+,{"stream_name":"stdout","time":5932.731421472,"data":"  KEA : [('Tioga County', 'LOC'), ('Welcome Center', 'LOC')]\n"}
+,{"stream_name":"stdout","time":5932.731429612,"data":"  ECA : [('Tioga County', 'LOC'), ('PA Welcome Center', 'LOC')]\n"}
+,{"stream_name":"stdout","time":5932.731432743,"data":"  GOLD: [('Tioga County', 'LOC'), ('PA Welcome Center', 'LOC')]\n"}
+,{"stream_name":"stdout","time":5932.731435696,"data":"\n"}
+,{"stream_name":"stdout","time":5932.731460422,"data":"TEXT: RT @ alikrieger : Thank you Nickelodeon for a fun day at the # KidsChoiceSports Awards !\n"}
+,{"stream_name":"stdout","time":5932.731464642,"data":"  KEA : [('Nickelodeon', 'ORG'), ('KidsChoiceSports Awards', 'OTHER')]\n"}
+,{"stream_name":"stdout","time":5932.731468591,"data":"  ECA : [('Nickelodeon', 'ORG')]\n"}
+,{"stream_name":"stdout","time":5932.73147217,"data":"  GOLD: [('Nickelodeon', 'ORG'), ('KidsChoiceSports', 'ORG')]\n"}
+,{"stream_name":"stdout","time":5932.731476061,"data":"\n"}
+,{"stream_name":"stdout","time":5932.7314802,"data":"TEXT: How our EMC Innovation Network keeps getting smarter :\n"}
+,{"stream_name":"stdout","time":5932.731504078,"data":"  KEA : [('EMC Innovation Network', 'OTHER')]\n"}
+,{"stream_name":"stdout","time":5932.731517717,"data":"  ECA : [('EMC Innovation Network', 'ORG')]\n"}
+,{"stream_name":"stdout","time":5932.731521672,"data":"  GOLD: [('Innovation Network', 'OTHER')]\n"}
+,{"stream_name":"stdout","time":5932.731525109,"data":"\n"}
+,{"stream_name":"stdout","time":5932.731528075,"data":"TEXT: # Nissan was the most viewed car brand on QL classifieds last year . Find out more here :\n"}
+,{"stream_name":"stdout","time":5932.731531068,"data":"  KEA : [('Nissan', 'OTHER'), ('QL classifieds', 'OTHER')]\n"}
+,{"stream_name":"stdout","time":5932.731534185,"data":"  ECA : [('Nissan', 'OTHER'), ('QL classifieds', 'ORG')]\n"}
+,{"stream_name":"stdout","time":5932.731537372,"data":"  GOLD: [('Nissan', 'ORG')]\n"}
+,{"stream_name":"stdout","time":5932.731540431,"data":"\n"}
+,{"stream_name":"stdout","time":5932.731543262,"data":"TEXT: Great night for SSSF Short Film Festival in St Petersburg . Submit your film through Film Freeway . 😊 🎬\n"}
+,{"stream_name":"stdout","time":5932.731547352,"data":"  KEA : [('SSSF Short Film Festival', 'OTHER'), ('St Petersburg', 'LOC'), ('Film Freeway', 'LOC')]\n"}
+,{"stream_name":"stdout","time":5932.731551263,"data":"  ECA : [('SSSF Short Film Festival', 'OTHER'), ('St Petersburg', 'LOC'), ('Film Freeway', 'ORG')]\n"}
+,{"stream_name":"stdout","time":5932.731555244,"data":"  GOLD: [('SSSF Short Film Festival', 'OTHER'), ('St Petersburg', 'LOC')]\n"}
+,{"stream_name":"stdout","time":5932.731558342,"data":"\n"}
+,{"stream_name":"stdout","time":5932.73156141,"data":"TEXT: RT @ Sir _ K _ Dalglish : To Boris Johnson ( Mayor of London ) Regarding your article in the Spectator - Do you wish to comment further . # JFT96 . . .\n"}
+,{"stream_name":"stdout","time":5932.731565149,"data":"  KEA : [('Boris Johnson', 'PER'), ('London', 'LOC'), ('Spectator', 'OTHER')]\n"}
+,{"stream_name":"stdout","time":5932.731568252,"data":"  ECA : [('Boris Johnson', 'PER'), ('London', 'LOC'), ('the Spectator', 'ORG')]\n"}
+,{"stream_name":"stdout","time":5932.731571595,"data":"  GOLD: [('Boris Johnson', 'PER'), ('London', 'LOC')]\n"}
+,{"stream_name":"stderr","time":5937.639588098,"data":"2026-10-30 05:50:12,372 | INFO    | modelscope_hub.download | Downloading 16 files from soliton110/MAKAR-3B@master\n"}
+,{"stream_name":"stderr","time":5937.639619273,"data":"\n"}
+,{"stream_name":"stderr","time":5937.639623358,"data":"2026-10-30 05:50:12,372 | INFO    | modelscope_hub.download | Downloading 16 files from soliton110/MAKAR-3B@master\n"}
+,{"stream_name":"stdout","time":8922.057866179,"data":"2889 truy vấn grounding\n"}
+,{"stream_name":"stdout","time":8922.057914415,"data":"Comprehensively analyze the Text and the Image.\n"}
+,{"stream_name":"stdout","time":8922.057918454,"data":"Text: The geometry of plants . Garfield Park Conservatory\n"}
+,{"stream_name":"stdout","time":8922.057921468,"data":"\n"}
+,{"stream_name":"stdout","time":8922.057924292,"data":"Is \"Garfield Park Conservatory (is a/an location)\" present in the image? If yes, provide its coordinates; else return [0,0,0,0].\n"}
+,{"stream_name":"stdout","time":8922.057936375,"data":"Notion:\n"}
+,{"stream_name":"stdout","time":8922.057953258,"data":"Please ignore the text content in the image (such as titles, tags, text boxes, etc.) and only focus on non-text visual elements (such as people, objects, logos, etc.).\n"}
+,{"stream_name":"stdout","time":8922.258176192,"data":"0 kết quả có sẵn, cần chạy 2889 request\n"}
+,{"stream_name":"stdout","time":8922.258203672,"data":"backend: transformers × 2 tiến trình | model 8.1 GB\n"}
+,{"stream_name":"stdout","time":8982.359888677,"data":"06:40 đang nạp model... | đang nạp model...\n"}
+,{"stream_name":"stdout","time":9042.36382172,"data":"06:41 40/1445  98s | 40/1444  96s\n"}
+,{"stream_name":"stdout","time":9102.362179027,"data":"06:42 40/1445  98s | 40/1444  96s\n"}
+,{"stream_name":"stdout","time":9162.362865744,"data":"06:43 80/1445  173s | 80/1444  179s\n"}
+,{"stream_name":"stdout","time":9222.364755912,"data":"06:44 120/1445  254s | 120/1444  259s\n"}
+,{"stream_name":"stdout","time":9282.365913402,"data":"06:45 160/1445  334s | 120/1444  259s\n"}
+,{"stream_name":"stdout","time":9342.363987469,"data":"06:46 160/1445  334s | 160/1444  359s\n"}
+,{"stream_name":"stdout","time":9402.36773535,"data":"06:47 200/1445  432s | 200/1444  436s\n"}
+,{"stream_name":"stdout","time":9462.366438285,"data":"06:48 240/1445  528s | 240/1444  530s\n"}
+,{"stream_name":"stdout","time":9522.368158406,"data":"06:49 240/1445  528s | 240/1444  530s\n"}
+,{"stream_name":"stdout","time":9582.367797249,"data":"06:50 280/1445  614s | 280/1444  614s\n"}
+,{"stream_name":"stdout","time":9642.370930749,"data":"06:51 280/1445  614s | 320/1444  708s\n"}
+,{"stream_name":"stdout","time":9702.370615053,"data":"06:52 320/1445  711s | 320/1444  708s\n"}
+,{"stream_name":"stdout","time":9762.373817257,"data":"06:53 360/1445  790s | 360/1444  788s\n"}
+,{"stream_name":"stdout","time":9822.372200114,"data":"06:54 400/1445  875s | 400/1444  874s\n"}
+,{"stream_name":"stdout","time":9882.376387061,"data":"06:55 400/1445  875s | 400/1444  874s\n"}
+,{"stream_name":"stdout","time":9942.375137574,"data":"06:56 440/1445  976s | 440/1444  953s\n"}
+,{"stream_name":"stdout","time":10002.37310886,"data":"06:57 480/1445  1064s | 480/1444  1039s\n"}
+,{"stream_name":"stdout","time":10062.375368821,"data":"06:58 480/1445  1064s | 520/1444  1122s\n"}
+,{"stream_name":"stdout","time":10122.376180813,"data":"06:59 520/1445  1148s | 520/1444  1122s\n"}
+,{"stream_name":"stdout","time":10182.378113661,"data":"07:00 560/1445  1236s | 560/1444  1203s\n"}
+,{"stream_name":"stdout","time":10242.377626794,"data":"07:01 560/1445  1236s | 600/1444  1281s\n"}
+,{"stream_name":"stdout","time":10302.380831874,"data":"07:02 600/1445  1315s | 640/1444  1364s\n"}
+,{"stream_name":"stdout","time":10362.382903947,"data":"07:03 640/1445  1401s | 640/1444  1364s\n"}
+,{"stream_name":"stdout","time":10422.380020185,"data":"07:04 680/1445  1486s | 680/1444  1445s\n"}
+,{"stream_name":"stdout","time":10482.381277215,"data":"07:05 680/1445  1486s | 720/1444  1542s\n"}
+,{"stream_name":"stdout","time":10542.384032493,"data":"07:06 720/1445  1582s | 720/1444  1542s\n"}
+,{"stream_name":"stdout","time":10602.384002865,"data":"07:07 720/1445  1582s | 760/1444  1625s\n"}
+,{"stream_name":"stdout","time":10662.384977607,"data":"07:08 760/1445  1684s | 800/1444  1711s\n"}
+,{"stream_name":"stdout","time":10722.384236196,"data":"07:09 800/1445  1773s | 800/1444  1711s\n"}
+,{"stream_name":"stdout","time":10782.384675426,"data":"07:10 800/1445  1773s | 840/1444  1804s\n"}
+,{"stream_name":"stdout","time":10842.384496468,"data":"07:11 840/1445  1871s | 880/1444  1895s\n"}
+,{"stream_name":"stdout","time":10902.386652577,"data":"07:12 840/1445  1871s | 880/1444  1895s\n"}
+,{"stream_name":"stdout","time":10962.387928355,"data":"07:13 880/1445  1987s | 920/1444  2004s\n"}
+,{"stream_name":"stdout","time":11022.388652045,"data":"07:14 920/1445  2087s | 920/1444  2004s\n"}
+,{"stream_name":"stdout","time":11082.389130968,"data":"07:15 920/1445  2087s | 960/1444  2104s\n"}
+,{"stream_name":"stdout","time":11142.389596808,"data":"07:16 960/1445  2205s | 1000/1444  2209s\n"}
+,{"stream_name":"stdout","time":11202.391312427,"data":"07:17 960/1445  2205s | 1000/1444  2209s\n"}
+,{"stream_name":"stdout","time":11262.392654301,"data":"07:18 1000/1445  2314s | 1040/1444  2316s\n"}
+,{"stream_name":"stdout","time":11322.395727851,"data":"07:19 1000/1445  2314s | 1040/1444  2316s\n"}
+,{"stream_name":"stdout","time":11382.394189375,"data":"07:20 1040/1445  2433s | 1080/1444  2423s\n"}
+,{"stream_name":"stdout","time":11442.392915259,"data":"07:21 1040/1445  2433s | 1080/1444  2423s\n"}
+,{"stream_name":"stdout","time":11502.394388506,"data":"07:22 1080/1445  2554s | 1120/1444  2528s\n"}
+,{"stream_name":"stdout","time":11562.39924841,"data":"07:23 1080/1445  2554s | 1120/1444  2528s\n"}
+,{"stream_name":"stdout","time":11622.401075708,"data":"07:24 1120/1445  2666s | 1160/1444  2637s\n"}
+,{"stream_name":"stdout","time":11682.400596383,"data":"07:25 1120/1445  2666s | 1200/1444  2748s\n"}
+,{"stream_name":"stdout","time":11742.402571236,"data":"07:26 1160/1445  2777s | 1200/1444  2748s\n"}
+,{"stream_name":"stdout","time":11802.399892068,"data":"07:27 1160/1445  2777s | 1200/1444  2748s\n"}
+,{"stream_name":"stdout","time":11862.402449296,"data":"07:28 1200/1445  2923s | 1240/1444  2880s\n"}
+,{"stream_name":"stdout","time":11922.402633572,"data":"07:29 1200/1445  2923s | 1240/1444  2880s\n"}
+,{"stream_name":"stdout","time":11982.403171405,"data":"07:30 1200/1445  2923s | 1280/1444  3014s\n"}
+,{"stream_name":"stdout","time":12042.40256543,"data":"07:31 1240/1445  3062s | 1280/1444  3014s\n"}
+,{"stream_name":"stdout","time":12102.405397551,"data":"07:32 1240/1445  3062s | 1320/1444  3163s\n"}
+,{"stream_name":"stdout","time":12162.406036925,"data":"07:33 1280/1445  3209s | 1320/1444  3163s\n"}
+,{"stream_name":"stdout","time":12222.407108393,"data":"07:34 1280/1445  3209s | 1320/1444  3163s\n"}
+,{"stream_name":"stdout","time":12282.409485759,"data":"07:35 1280/1445  3209s | 1360/1444  3319s\n"}
+,{"stream_name":"stdout","time":12342.411253423,"data":"07:36 1320/1445  3357s | 1360/1444  3319s\n"}
+,{"stream_name":"stdout","time":12402.414041122,"data":"07:37 1320/1445  3357s | 1360/1444  3319s\n"}
+,{"stream_name":"stdout","time":12462.409582885,"data":"07:38 1320/1445  3357s | 1360/1444  3319s\n"}
+,{"stream_name":"stdout","time":12522.409472904,"data":"07:39 1360/1445  3535s | 1400/1444  3556s\n"}
+,{"stream_name":"stdout","time":12582.412639915,"data":"07:40 1360/1445  3535s | 1400/1444  3556s\n"}
+,{"stream_name":"stdout","time":12642.413140213,"data":"07:41 1360/1445  3535s | 1400/1444  3556s\n"}
+,{"stream_name":"stdout","time":12702.407954683,"data":"07:42 1360/1445  3535s | 1444/1444  3766s\n"}
+,{"stream_name":"stdout","time":12762.400521316,"data":"07:43 1400/1445  3789s | 1444/1444  3766s\n"}
+,{"stream_name":"stdout","time":12822.409580301,"data":"07:44 1400/1445  3789s | 1444/1444  3766s\n"}
+,{"stream_name":"stdout","time":12882.40236659,"data":"07:45 1400/1445  3789s | 1444/1444  3766s\n"}
+,{"stream_name":"stdout","time":12942.4039062,"data":"07:46 1400/1445  3789s | 1444/1444  3766s\n"}
+,{"stream_name":"stdout","time":13002.306155658,"data":"07:47 1445/1445  4046s | 1444/1444  3766s\n"}
+,{"stream_name":"stdout","time":13002.306216053,"data":"Còn 7.4 h trong ngân sách thời gian\n"}
+,{"stream_name":"stdout","time":13002.306223028,"data":"2889/2889 kết quả, 4080s\n"}
+,{"stream_name":"stdout","time":13002.30622667,"data":"Tỉ lệ output đúng định dạng \u003cthink\u003e…\u003c/think\u003e\u003canswer\u003e…\u003c/answer\u003e: 99.7%\n"}
+,{"stream_name":"stdout","time":13002.306231152,"data":"1264|0|2|PER \n"}
+,{"stream_name":"stdout","time":13002.306234309,"data":" \u003cthink\u003e\n"}
+,{"stream_name":"stdout","time":13002.306240803,"data":"The image shows a person standing on a stage, holding a microphone, which suggests that this individual is likely performing or about to perform. Given the context provided by the text, which mentions \"Anthony Kiedis Rushed to Hospital, Chili Peppers Cancel Concert,\" it can be inferred that the person in the image is Anthony Kiedis, as he is associated with the Chili Peppers band. The text indicates that Kiedis was hospitalized and the concert was canceled, which aligns with the scene depicted in the image where a performer appears to be addressing an audience or preparing for a performance.\n"}
+,{"stream_name":"stdout","time":13002.306248159,"data":"\u003c/think\u003e \n"}
+,{"stream_name":"stdout","time":13002.306256942,"data":" \u003canswer\u003e[100,  20,  180,  120]\u003c/answer\u003e\n"}
+,{"stream_name":"stdout","time":13002.308501756,"data":"Paper Table 3 (MAKAR): {'MNERG': 71.88, 'MNER': 86.38, 'EEG': 74.64}\n"}
+,{"stream_name":"stdout","time":13002.983966364,"data":"0 kết quả có sẵn, cần chạy 504 request\n"}
+,{"stream_name":"stdout","time":13002.983996768,"data":"backend: transformers × 2 tiến trình | model 7.5 GB\n"}
+,{"stream_name":"stdout","time":13063.019324941,"data":"07:48 80/252  41s | 80/252  40s\n"}
+,{"stream_name":"stdout","time":13123.016920122,"data":"07:49 160/252  84s | 200/252  111s\n"}
+,{"stream_name":"stdout","time":13183.018254671,"data":"07:50 240/252  166s | 240/252  154s\n"}
+,{"stream_name":"stdout","time":13243.009113811,"data":"07:51 240/252  166s | 252/252  219s\n"}
+,{"stream_name":"stdout","time":13303.038096008,"data":"07:52 252/252  244s | 252/252  219s\n"}
+,{"stream_name":"stdout","time":13303.038136001,"data":"Còn 7.3 h trong ngân sách thời gian\n"}
+,{"stream_name":"stdout","time":13303.038140498,"data":"Ví dụ output raw: [0,0,392,196]\n"}
+,{"stream_name":"stdout","time":13303.162915931,"data":"Paper Table 5 (EEG): Qwen2.5-VL-3B Raw 22.45 / 38.38 | MAKAR-3B 72.48 / 72.43 | Qwen2.5-VL-7B Raw 60.09 / 60.05 | MAKAR-7B 74.64 / 75.66  (GMNER / FMNERG)\n"}
+,{"stream_name":"stdout","time":13303.362573541,"data":"0 kết quả có sẵn, cần chạy 6 request\n"}
+,{"stream_name":"stdout","time":13303.362601705,"data":"backend: transformers × 2 tiến trình | model 8.1 GB\n"}
+,{"stream_name":"stdout","time":13363.312412231,"data":"07:53 3/3  38s | 3/3  35s\n"}
+,{"stream_name":"stdout","time":13363.312445937,"data":"Còn 7.3 h trong ngân sách thời gian\n"}
+,{"stream_name":"stdout","time":13363.781862895,"data":"TEXT: The man himself Michael Ozuna happy birthday brother baseball is my life too . You my day 1 from Puerto rico 😍 💯 ❤ ️\n"}
+,{"stream_name":"stdout","time":13363.781893624,"data":"\u003cthink\u003e\n"}
+,{"stream_name":"stdout","time":13363.781899733,"data":"The image shows a young boy standing in front of an orange wall with a beige armchair and a decorated Christmas tree to his left. The boy is wearing a white shirt, brown pants, and red sneakers. There is no visible text or any indication that the name \"Michael Ozuna\" is present in the image.\n"}
+,{"stream_name":"stdout","time":13363.78190688,"data":"\n"}
+,{"stream_name":"stdout","time":13363.781911539,"data":"The text provided mentions \"Michael Ozuna,\" which is likely a reference to the person being celebrated in the birthday message. However, there is no direct evidence in the image to confirm the identity of the individual as Michael Ozuna. The text also includes a personal touch with phrases like \"happy birthday brother,\" \"baseball is my life too,\" and \"You my day 1 from Puerto Rico,\" which sugges \n"}
+,{"stream_name":"stdout","time":13363.781931426,"data":"\n"}
+,{"stream_name":"stdout","time":13363.854958479,"data":"TEXT: I love business and my daughter has seen @ Disney Frozen twice .\n"}
+,{"stream_name":"stdout","time":13363.854984589,"data":"\u003cthink\u003e\n"}
+,{"stream_name":"stdout","time":13363.854989658,"data":"The image is a promotional poster for the movie \"Frozen,\" which is an animated film produced by Disney. The text in the image mentions that the movie is from the creators of \"Tangled\" and \"Wreck-It Ralph,\" indicating its connection to the Disney franchise. The title \"Frozen\" is prominently displayed in large, bold letters, confirming that this is indeed the movie being advertised.\n"}
+,{"stream_name":"stdout","time":13363.854995644,"data":"\n"}
+,{"stream_name":"stdout","time":13363.854999478,"data":"The coordinates [126, 350, 573, 440] refer to the bounding box around the word \"FROZEN.\" This suggests that the text \"FROZEN\" is the focal point of the poster, likely intended to draw attention to the title of the movie. The coordinates indicate the exact location within the image where the word \"FROZEN\" i \n"}
+,{"stream_name":"stdout","time":13363.855004808,"data":"\n"}
+,{"stream_name":"stdout","time":13363.994766243,"data":"TEXT: Russell Westbrook on Stephen Curry : “ He ’ s not nothing I haven ’ t seen ” OKC v Warriors\n"}
+,{"stream_name":"stdout","time":13363.994801573,"data":"\u003cthink\u003e\n"}
+,{"stream_name":"stdout","time":13363.994807143,"data":"The image shows a basketball game in progress with three players visible. The player in the white jersey with yellow accents is Stephen Curry, who is known for his skills as a point guard and scorer. He is actively engaged in the play, dribbling the ball while being defended by two players from the opposing team.\n"}
+,{"stream_name":"stdout","time":13363.994812726,"data":"\u003c/think\u003e \n"}
+,{"stream_name":"stdout","time":13363.994816978,"data":" \u003canswer\u003e[228, 36, 341, 317]\u003c/answer\u003e \n"}
+,{"stream_name":"stdout","time":13363.994821482,"data":"\n"}
+,{"stream_name":"stdout","time":13364.013541747,"data":"TEXT: Congrats to @ B _ Schwimmteam @ DBS _ NPC swimmer Daniela Schulte on breaking a world record \u0026gt ; \u0026gt ;\n"}
+,{"stream_name":"stdout","time":13364.013568408,"data":"\u003cthink\u003e\n"}
+,{"stream_name":"stdout","time":13364.013572066,"data":"The image shows a person holding a gold medal with a purple ribbon, which is typically awarded for winning a competition. The text mentions \"B_Schwimmteam\" and \"DBS NPC swimmer Daniela Schulte,\" indicating that this individual is likely a swimmer who competed in a national or international competition (as suggested by \"NPC\"). The presence of the gold medal supports the idea that Daniela Schulte has achieved a significant accomplishment, such as breaking a world record.\n"}
+,{"stream_name":"stdout","time":13364.013578123,"data":"\u003c/think\u003e \n"}
+,{"stream_name":"stdout","time":13364.013580805,"data":" \u003canswer\u003e[128, 1, 495, 280]\u003c/answer\u003e \n"}
+,{"stream_name":"stdout","time":13364.013593438,"data":"\n"}
+,{"stream_name":"stdout","time":13364.198746585,"data":"Đã lưu: /kaggle/working/results_GMNER.json /kaggle/working/comparison.csv\n"}
+,{"stream_name":"stderr","time":13367.642921826,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":13367.642949624,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":13367.902692166,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":13367.902729382,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":13368.779755325,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":13368.966157886,"data":"[NbConvertApp] Writing 1573270 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":13371.406459247,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":13372.580069079,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":13372.580118873,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":13372.580360313,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":13372.580712663,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":13372.581046818,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":13372.581281573,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":13372.58156478,"data":"[NbConvertApp] Writing 940667 bytes to __results__.html\n"}
+]
